@@ -236,45 +236,40 @@ main {
 .bar {
   display: none;
 }
-/* --- 1100px nuqtasi uchun Responsive --- */
+
 @media (max-width: 1100px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* Python bo'limidagi katta masofani kamaytiramiz */
   .ddd {
     gap: 50px;
     justify-content: space-between;
   }
 
-  /* Nega Akademnashr bo'limidagi ustunlar orasini kamaytiramiz */
   .ggg {
     gap: 20px;
     justify-content: space-around;
   }
 
-  /* Aksiya bo'limidagi (nnn) masofani kamaytiramiz */
   .nnn {
     gap: 30px;
     padding: 40px;
   }
 
-  /* Matnlarning qat'iy kengliklarini moslashuvchan qilamiz */
   .sarlavha2,
   .text4,
   .text5,
   .text3 {
     width: 100%;
-    max-width: 400px; /* Maksimal chegarani saqlab qolamiz */
+    max-width: 400px;
   }
 }
 
-/* --- MEDIA QUERIES (Ekran 992px dan kichik bo'lganda) --- */
 @media (max-width: 992px) {
   .ddd {
-    gap: 50px; /* Masofani kamaytiramiz */
+    gap: 50px;
   }
   .menu-a {
     display: none;
@@ -292,9 +287,7 @@ main {
   }
 }
 
-/* --- TELEFON VA PLANSHETLAR UCHUN (768px dan kichik) --- */
 @media (max-width: 768px) {
-  /* 1. Balandliklarni avtomat (auto) qilamiz, aks holda kontent sig'may qoladi */
   .python,
   .qqq,
   .nnn,
@@ -304,7 +297,6 @@ main {
     width: 100%;
   }
 
-  /* 2. Flex elementlarni ustma-ust tushiramiz */
   .menu {
     display: none;
   }
@@ -320,7 +312,6 @@ main {
     gap: 30px;
   }
 
-  /* 3. Navbar va Menu */
   .menu {
     gap: 15px;
     margin-top: 20px;
@@ -329,7 +320,6 @@ main {
     margin: 5px 0;
   }
 
-  /* 4. Python bo'limi (Asosiy qism) */
   .ddd {
     padding: 40px 20px;
   }
@@ -340,11 +330,10 @@ main {
     font-size: 30px;
   }
   .img1 {
-    transform: translateY(0); /* Rasmni joyiga qaytaramiz */
+    transform: translateY(0);
     max-width: 250px;
   }
 
-  /* 5. Nega Akademnashr bo'limi */
   .fff {
     padding-top: 50px;
   }
@@ -360,7 +349,6 @@ main {
     width: 100%;
   }
 
-  /* 6. Aksiya bo'limi (Qora blok) */
   .nnn {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -375,14 +363,13 @@ main {
     width: 100%;
   }
   .img5 {
-    transform: translateY(0); /* Rasm tepaga chiqib ketmasligi uchun */
+    transform: translateY(0);
     max-width: 200px;
   }
   .bar {
     display: flex;
   }
 
-  /* 7. Footer menyulari */
   .ppp {
     gap: 40px;
   }
